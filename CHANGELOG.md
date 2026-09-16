@@ -1,5 +1,13 @@
 # ng-hub-ui-toast Changelog
 
+## [Unreleased]
+
+### Changed
+
+- The repository moved to the `hub-env` organization. Issues for every Hub UI package are now
+  gathered in [hub-env/hub-ui](https://github.com/hub-env/hub-ui/issues), and the `repository`, `bugs`
+  and README links point at the new addresses. GitHub redirects the old ones.
+
 ## [22.11.0] - 2026-09-08
 
 ### Changed
