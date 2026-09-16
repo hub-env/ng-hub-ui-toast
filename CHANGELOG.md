@@ -1,6 +1,6 @@
 # ng-hub-ui-toast Changelog
 
-## [Unreleased]
+## [22.11.1] - 2026-09-16
 
 ### Changed
 
