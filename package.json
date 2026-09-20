@@ -20,7 +20,18 @@
 		"ui-component",
 		"ng-hub-ui",
 		"signals",
-		"standalone"
+		"standalone",
+		"toasts",
+		"notifications",
+		"snackbar",
+		"alert",
+		"message",
+		"popup",
+		"overlay",
+		"accessibility",
+		"a11y",
+		"angular-library",
+		"typescript"
 	],
 	"peerDependencies": {
 		"@angular/common": ">=21.0.0",
