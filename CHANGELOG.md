@@ -1,5 +1,13 @@
 # ng-hub-ui-toast Changelog
 
+## [22.11.2] - 2026-09-20
+
+### Changed
+
+- The npm keywords name the words people actually search with — `toasts`, `notifications`,
+  `snackbar`, `alert`, `message`, `popup`, `overlay` — plus `accessibility` and `a11y`.
+  Metadata only: no code, types or styles change.
+
 ## [22.11.1] - 2026-09-16
 
 ### Changed
