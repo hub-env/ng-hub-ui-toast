@@ -1,5 +1,19 @@
 # ng-hub-ui-toast Changelog
 
+## [22.12.0] - 2026-09-23
+
+### Changed
+
+- **BREAKING — the Angular floor rises from `17.1.0` to `17.3.0`.** The old range was
+  measured from the source alone, and its published `.d.ts` names `InputSignalWithTransform` or `OutputEmitterRef`, which Angular did not ship until 17.3. An application below the new floor could install this
+  package and then fail to build, with an error that pointed at Angular rather than here; it now
+  gets the peer warning it should always have had. Nothing that worked stops working. See
+  `BREAKING_CHANGES.md`.
+- **The floor is proved by running it now, not only derived.** `npm run floors:matrix` builds a real
+  project pinned to the oldest Angular this package claims, installs it there, typechecks the
+  published types against that version's `@angular/*` and runs that version's linker over the
+  compiled output. It is what found this.
+
 ## [22.11.3] - 2026-09-23
 
 ### Changed
