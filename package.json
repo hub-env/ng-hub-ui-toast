@@ -1,9 +1,9 @@
 {
 	"name": "ng-hub-ui-toast",
-	"version": "22.11.2",
+	"version": "22.11.3",
 	"license": "MIT",
 	"description": "Standalone Angular toast/notification library (Angular 21+), part of the ng-hub-ui family.",
-	"author": "Carlos Morcillo Fernández <carlos.morcillo@me.com> (https://www.carlosmorcillo.com)",
+	"author": "Carlos Morcillo Fern\u00e1ndez <carlos.morcillo@me.com> (https://www.carlosmorcillo.com)",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hub-env/ng-hub-ui-toast.git"
@@ -34,8 +34,8 @@
 		"typescript"
 	],
 	"peerDependencies": {
-		"@angular/common": ">=21.0.0",
-		"@angular/core": ">=21.0.0",
+		"@angular/common": ">=17.1.0",
+		"@angular/core": ">=17.1.0",
 		"ng-hub-ui-ds": ">=22.0.0",
 		"ng-hub-ui-utils": ">=22.7.0"
 	},

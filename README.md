@@ -345,8 +345,8 @@ hub-toast[data-type='offline'] {
 
 ```json
 {
-    "@angular/common": ">=21.0.0",
-    "@angular/core": ">=21.0.0",
+    "@angular/common": ">=17.1.0",
+    "@angular/core": ">=17.1.0",
     "ng-hub-ui-ds": ">=22.0.0",
     "ng-hub-ui-utils": ">=22.7.0"
 }
