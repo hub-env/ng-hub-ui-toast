@@ -38,6 +38,7 @@ Esta biblioteca forma parte del ecosistema **ng-hub-ui**:
 - [**ng-hub-ui-portal**](https://www.npmjs.com/package/ng-hub-ui-portal)
 - [**ng-hub-ui-skeleton**](https://www.npmjs.com/package/ng-hub-ui-skeleton)
 - [**ng-hub-ui-sortable**](https://www.npmjs.com/package/ng-hub-ui-sortable)
+- [**ng-hub-ui-spreadsheet**](https://www.npmjs.com/package/ng-hub-ui-spreadsheet)
 - [**ng-hub-ui-stepper**](https://www.npmjs.com/package/ng-hub-ui-stepper)
 - [**ng-hub-ui-toast**](https://www.npmjs.com/package/ng-hub-ui-toast) ← Estás aquí
 - [**ng-hub-ui-utils**](https://www.npmjs.com/package/ng-hub-ui-utils)
