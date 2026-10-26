@@ -34,7 +34,7 @@
 	// the accent's own lightness (reserved for accent-filled affordances).
 	--hub-toast-accent-on: oklch(from var(--hub-toast-accent) clamp(0, (0.62 - l) * 1000, 1) 0 h);
 	--hub-toast-bg: var(--hub-sys-surface-page, #fff);
-	--hub-toast-color: var(--hub-sys-text-primary, #212529);
+	--hub-toast-color: var(--hub-sys-text-body, #212529);
 	--hub-toast-border: var(--hub-sys-border-color-default, #dee2e6);
 
 	// Progress bar

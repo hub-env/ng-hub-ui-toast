@@ -44,7 +44,7 @@ Colour is driven by a **single accent slot**. The semantic `data-type` (built-in
 | Variable | Default |
 | --- | --- |
 | `--hub-toast-bg` | `var(--hub-sys-surface-page, #fff)` |
-| `--hub-toast-color` | `var(--hub-sys-text-primary, #212529)` |
+| `--hub-toast-color` | `var(--hub-sys-text-body, #212529)` |
 | `--hub-toast-border` | `var(--hub-sys-border-color-default, #dee2e6)` |
 | `--hub-toast-accent` | `var(--hub-sys-border-color-default, #dee2e6)` |
 | `--hub-toast-min-width` | `18rem` |

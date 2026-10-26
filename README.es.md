@@ -252,7 +252,7 @@ Todos los detalles visuales se controlan mediante CSS custom properties `--hub-t
 | Variable | Por defecto | Descripción |
 |---|---|---|
 | `--hub-toast-bg` | `var(--hub-sys-surface-page, #fff)` | Color de fondo. |
-| `--hub-toast-color` | `var(--hub-sys-text-primary, #212529)` | Color del texto. |
+| `--hub-toast-color` | `var(--hub-sys-text-body, #212529)` | Color del texto. |
 | `--hub-toast-border` | `var(--hub-sys-border-color-default, #dee2e6)` | Color del borde. |
 | `--hub-toast-accent` | `var(--hub-sys-border-color-default, #dee2e6)` | Color de acento — controla todo el borde y la barra de progreso. |
 | `--hub-toast-min-width` | `18rem` | Ancho mínimo. |
@@ -342,7 +342,7 @@ hub-toast[data-type='offline'] {
 {
     "@angular/common": ">=17.3.0",
     "@angular/core": ">=17.3.0",
-    "ng-hub-ui-ds": ">=22.0.0",
+    "ng-hub-ui-ds": ">=22.14.1",
     "ng-hub-ui-utils": ">=22.7.0"
 }
 ```

@@ -1,5 +1,19 @@
 # ng-hub-ui-toast Changelog
 
+## [22.12.2] - 2026-10-26
+
+### Changed
+
+- **Ordinary text reads the new ink names.** Every default that painted text with
+  `--hub-sys-text-primary`, `-secondary` or `-tertiary` now reads `--hub-sys-text-body`,
+  `-body-secondary` or `-body-tertiary`, the names `ng-hub-ui-ds` 22.14 gave the ink so that the old
+  ones can go to the `primary` and `secondary` accents in its next major. The colours do not change:
+  today the new names follow the old ones. One case does change: a product that sets
+  `--hub-sys-text-primary` on a section of its own, without `data-theme`, no longer recolours this
+  text there; it has to set `--hub-sys-text-body` instead. The `ng-hub-ui-ds` peer floor rises to
+  22.14.1, the first version that declares the new names on every theme, so a theme applied to one
+  section keeps its own ink.
+
 ## [22.12.1] - 2026-09-28
 
 ### Changed

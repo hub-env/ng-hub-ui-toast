@@ -257,7 +257,7 @@ Every visual detail is controlled by `--hub-toast-*` CSS custom properties.
 | Variable | Default | Description |
 |---|---|---|
 | `--hub-toast-bg` | `var(--hub-sys-surface-page, #fff)` | Background colour. |
-| `--hub-toast-color` | `var(--hub-sys-text-primary, #212529)` | Text colour. |
+| `--hub-toast-color` | `var(--hub-sys-text-body, #212529)` | Text colour. |
 | `--hub-toast-border` | `var(--hub-sys-border-color-default, #dee2e6)` | Border colour. |
 | `--hub-toast-accent` | `var(--hub-sys-border-color-default, #dee2e6)` | Accent colour — drives the full border and the progress bar. |
 | `--hub-toast-min-width` | `18rem` | Minimum width. |
@@ -348,7 +348,7 @@ hub-toast[data-type='offline'] {
 {
     "@angular/common": ">=17.3.0",
     "@angular/core": ">=17.3.0",
-    "ng-hub-ui-ds": ">=22.0.0",
+    "ng-hub-ui-ds": ">=22.14.1",
     "ng-hub-ui-utils": ">=22.7.0"
 }
 ```
