@@ -12,7 +12,7 @@ const BUILT_IN_TYPES = new Set<string>(['success', 'error', 'warning', 'info']);
  * via `signal` + `effect` and emits `(closed)` with the toast id when done.
  *
  * The `data-type` host attribute drives the `@each` SCSS accent loop;
- * `--hub-toast hub-glass-surface-accent` is set inline only for custom types.
+ * `--hub-toast-accent` is set inline only for custom types.
  */
 @Component({
 	selector: 'hub-toast',
@@ -20,7 +20,7 @@ const BUILT_IN_TYPES = new Set<string>(['success', 'error', 'warning', 'info']);
 	styleUrl: './toast.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	host: {
-		class: 'hub-toast',
+		class: 'hub-toast hub-glass-surface',
 		// Live region: inserting an element with role=alert/status announces it.
 		// Errors/warnings interrupt (assertive); the rest wait their turn (polite).
 		'[attr.role]': '_isUrgent() ? "alert" : "status"',

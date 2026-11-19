@@ -1,5 +1,14 @@
 # ng-hub-ui-toast Changelog
 
+## [22.13.1] - 2026-11-19
+
+### Fixed
+
+- **Toasts turn to glass, as 22.13.0 announced.** The `hub-glass-surface` class never reached the
+  toast's host: the edit that should have added it landed in a code comment instead, so the
+  glass rules shipped in the stylesheet but nothing opted the toast into them. The host carries
+  the class now, and the comment reads as it did.
+
 ## [22.13.0] - 2026-11-19
 
 ### Added
