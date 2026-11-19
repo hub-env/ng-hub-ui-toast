@@ -110,10 +110,14 @@ $hub-toast-types: (
 	padding: var(--hub-toast-padding-y) var(--hub-toast-padding-x);
 	border-radius: var(--hub-toast-border-radius);
 	border: var(--hub-toast-border-width) solid var(--hub-toast-border);
-	background: var(--hub-toast-bg);
+	// Glass when an ancestor turns the layer on (ng-hub-ui-ds); opaque otherwise.
+	background-color: color-mix(in srgb, var(--hub-toast-bg) var(--hub-sys-glass-opacity, 100%), transparent);
+	background-image: var(--hub-sys-glass-sheen, none);
+	-webkit-backdrop-filter: var(--hub-sys-glass-filter, none);
+	backdrop-filter: var(--hub-sys-glass-filter, none);
 	animation: hub-toast-enter 200ms ease-out both;
 	color: var(--hub-toast-color);
-	box-shadow: var(--hub-toast-shadow);
+	box-shadow: var(--hub-sys-glass-rim, 0 0 #0000), var(--hub-toast-shadow);
 	cursor: default;
 	overflow: hidden;
 }

@@ -1,5 +1,11 @@
 # ng-hub-ui-toast Changelog
 
+## [22.13.0] - 2026-11-19
+
+### Added
+
+- **Glass layer.** Under the `ng-hub-ui-ds` glass layer (an ancestor with `data-hub-glass` or `data-theme="glass"`), the toast carries `hub-glass-surface` and takes a translucent background, a sheen, a backdrop blur and a light rim. Every value is read with an opaque fallback, so nothing changes without the layer.
+
 ## [22.12.2] - 2026-10-26
 
 ### Changed

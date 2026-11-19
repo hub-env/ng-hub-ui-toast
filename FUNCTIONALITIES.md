@@ -92,6 +92,12 @@ an element and a new one cannot relocate those already on screen.
 | | Progress bar exposed as `role="progressbar"` with its bounds | ✅ |
 | **Motion** | Enter animation dropped under `prefers-reduced-motion` | ❌ |
 
+## Glass
+
+| Category | Functionality | Example Covered |
+| --- | --- | --- |
+| **Toast** | `hub-glass-surface` with tint, sheen, blur and rim | ❌ |
+
 ## Styling
 
 | Category | Functionality | Example Covered |

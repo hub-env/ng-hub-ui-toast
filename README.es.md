@@ -243,6 +243,10 @@ hub-toast-container.toast-bottom-center {
 
 ---
 
+## Glass
+
+Con la capa glass de `ng-hub-ui-ds` activa (un ancestro con `data-hub-glass` o `data-theme="glass"`), el toast toma un fondo translúcido, un destello, un desenfoque del fondo y un borde de luz. Sin la capa no cambia nada. La capa viene de `ng-hub-ui-ds`; `provideHubGlassLight()` de `ng-hub-ui-utils` hace que el destello siga al puntero.
+
 ## 🎨 Estilos
 
 Todos los detalles visuales se controlan mediante CSS custom properties `--hub-toast-*`.

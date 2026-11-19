@@ -248,6 +248,10 @@ hub-toast-container.toast-bottom-center {
 
 ---
 
+## Glass
+
+With the glass layer of `ng-hub-ui-ds` on (an ancestor with `data-hub-glass` or `data-theme="glass"`), the toast takes a translucent background, a sheen, a backdrop blur and a light rim. Without the layer nothing changes. The layer comes from `ng-hub-ui-ds`; `provideHubGlassLight()` from `ng-hub-ui-utils` makes the sheen follow the pointer.
+
 ## 🎨 Styling
 
 Every visual detail is controlled by `--hub-toast-*` CSS custom properties.
